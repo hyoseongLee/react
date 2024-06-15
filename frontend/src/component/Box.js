@@ -7,6 +7,8 @@ const Box = () => {
                 <div className='Dooray'>Dooray!</div>
                 |
                  <div className='calender'>캘린더</div>
+                 <div> <input className='input' type='text' placeholder='일정 검색' /> 
+                 </div>
 
             </div>
 
