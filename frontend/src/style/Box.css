@@ -7,7 +7,7 @@
 }
 
 .subbox {
-    color: white;
+    color: #D9D9D9;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -29,6 +29,17 @@
     font-weight: bold;
     margin-left:20px;
 
+}
+
+
+.input {
+    border:none;
+    width: 424px;
+    height: 53px;
+    padding-left: 17px;
+    background-color: #F2ADAD;
+    color: #D3D3D3;
+    margin-left:154px;
 }
 
 .right {

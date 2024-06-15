@@ -1,0 +1,53 @@
+body {
+    height: 100%;
+    margin-top: 212px;
+}
+
+.bigbox {
+    width: 648px;
+    height: 403px;
+    border: 1px solid #525252;
+    border-radius: 10px;
+    padding-top: 28px;
+    padding-bottom: 27px;
+}
+
+.content1 {
+    width: 592px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 28px;
+}
+
+hr {
+    width: 585px;
+}
+
+.signup {
+    font-size: 13px;
+    padding: 3px 5px 3px 6px;
+}
+
+.button {
+    width: 61px;
+    color: #FFFFFF;
+    background-color: #4F6DD9;
+    border-radius: 20px;
+}
+
+
+.content2 {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top:44px;
+}
+
+.content3 {}
