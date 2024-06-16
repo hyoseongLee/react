@@ -1,28 +1,25 @@
-body {
-    height: 100%;
-    margin-top: 212px;
-}
-
-.bigbox {
+.box1 {
     width: 648px;
-    height: 403px;
     border: 1px solid #525252;
     border-radius: 10px;
     padding-top: 28px;
-    padding-bottom: 27px;
+    margin-top: 212px;
+    margin-left: 430px;
+    margin-bottom: 312px;
+
 }
 
 .content1 {
-    width: 592px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-left: 33px;
+    padding-right: 26px;
 }
 
 .login {
     font-size: 20px;
     font-weight: bold;
-    margin-top: 28px;
 }
 
 hr {
@@ -36,18 +33,61 @@ hr {
 
 .button {
     width: 61px;
+    border: none;
     color: #FFFFFF;
     background-color: #4F6DD9;
     border-radius: 20px;
 }
 
-
 .content2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 44px;
+}
+
+.idname {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.inputbox {
+    color: #DDDDDD;
     width: 400px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #BBBBBB;
+    margin-bottom: 15px;
+    padding-left: 15px;
+}
+
+.pwname {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+
+.content3 {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top:44px;
+    margin-top: 24px;
 }
 
-.content3 {}
+.bluebutton {
+    color: #FFFFFF;
+    background-color: #4F6DD9;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.missing {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
