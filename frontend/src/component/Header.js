@@ -1,6 +1,6 @@
 import React from 'react';
-import '../style/Box.css';
-const Box = () => {
+import '../style/Header.css';
+const Header = () => {
     return (
         <div className='headerbox'>
             <div className='subbox'>
@@ -16,4 +16,4 @@ const Box = () => {
         </div>
     )
 }
-export default Box;
+export default Header;

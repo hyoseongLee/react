@@ -1,9 +1,8 @@
 import React from 'react';
-import '../style/Footer.css';
+import '../style/Login.css';
 
-const Footer = () => {
+const Login = () => {
     return (
-        <body>
             <div className='box1'>
                 <div className='content1'>
                     <div className='login'> Schooler 로그인 </div>
@@ -34,8 +33,7 @@ const Footer = () => {
                 </div>
 
             </div>
-        </body>
     )
 }
 
-export default Footer;
+export default Login;
