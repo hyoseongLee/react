@@ -3,6 +3,7 @@ import '../style/Login.css';
 
 const Login = () => {
     return (
+        <div className='total1'>
             <div className='box1'>
                 <div className='content1'>
                     <div className='login'> Schooler 로그인 </div>
@@ -33,6 +34,7 @@ const Login = () => {
                 </div>
 
             </div>
+        </div>
     )
 }
 
