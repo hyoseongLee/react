@@ -1,45 +1,58 @@
-.Group {
-    display: flex;
-    justify-content: center;
-    font-size: 32px;
-    margin-top: 75px;   
-}
 
-.bigbox {
+
+.Grouptotal {
     display: flex;
-    justify-content: center;
     align-items: center;
-    margin-top: 48px;
-    margin-bottom: 15px;
+    flex-direction: column;
 }
 
-.box {
+.Group {
+    font-size: 32px;
+    margin-top:75px;
+}
+
+.Groupboxs {
+    display: flex;
+    gap:15px;
+    margin-top: 48px;
+    margin-bottom:15px;
+}
+
+.Groupbox {
     width: 727px;
     height: 645px;
     border: 1px solid #7A7A7A;
     border-radius: 5px;
-    margin-right: 15px;
 }
 
 .smallbox {
-    width: 214px;
-    height: 645px;
     border: 1px solid #7A7A7A;
     border-radius: 10px;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
 
 .Groupcontent1 {
+    background-color: #D9D9D9;
+    border-radius: 7px;
+    width: 181px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 7px;
 }
 
+
 .Groupcontent2 {
-    color: #D7D5D5;
+    padding-left:11.5px;
+    border: none;
+    background-color:#787878;
     width: 171px;
     height: 28px;
-    background-color: #787878;
-    padding-left: 11.5px;
-    border: none;
+    font-size: 10px;
+}
+
+.Groupcontent2::placeholder {
+    color:#D7D5D5;
 }

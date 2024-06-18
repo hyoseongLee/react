@@ -1,3 +1,10 @@
+.total1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:100px;
+}
+
 .box1 {
     width: 648px;
     border: 1px solid #525252;

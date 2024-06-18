@@ -7,8 +7,7 @@ import Group from './component/Group';
 function App() {
   return (
     <div className="App"> 
-    <Header />
-    <Login />
+    <Group />
     </div>
   );
 }
