@@ -1,5 +1,7 @@
 import React from 'react';
 import '../style/Header.css';
+import { Link } from 'react-router-dom';
+
 const Header = () => {
     return (
         <div className='headerbox'>
@@ -12,7 +14,7 @@ const Header = () => {
 
             </div>
 
-            <div className='right'> 문의하기 </div>
+            <Link to="/Group" className='right'> 문의하기 </Link>
         </div>
     )
 }
