@@ -25,14 +25,13 @@ const Login = () => {
                     <div>
                         <div className='pwname'> 비밀번호 </div>
                         <div className='pwbox'>
-                            <input className='inputbox' type='text' placeholder='비밀번호 필수' />
+                            <input className='inputbox' type='password' placeholder='비밀번호 필수' />
                         </div>
                     </div>
                 </div>
-
+        
                 <div className='content3'>
                         <Link to="/Image" button className='bluebutton'> 로그인 </Link>
-
                     <div className='missing'>
                         <div className='idmiss'> 아이디 찾기 </div>
                         <p> / </p>
