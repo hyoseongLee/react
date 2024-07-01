@@ -3,7 +3,7 @@ import Header from './component/Header';
 import Login from './component/Login';
 import Group from './component/Group';
 import Image from './component/Image';
-import { Routes, Route, BrowserRouter } from "react-router-dom";
+import { Routes, Route, } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 
 function App() {
@@ -11,12 +11,11 @@ function App() {
     <div className="App">
       <Header />
       <Routes>
-        <Route path="/" elemyent={<Header />} />
+        <Route path="/" element={<Header />} />
         <Route path="Login" element={<Login />} />
         <Route path="Group" element={<Group />} />
         <Route path="Image" element={<Image />} />
       </Routes>
-      <Login />
     </div>
   );
 }

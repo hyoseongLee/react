@@ -1,18 +1,36 @@
 .Imagebox {
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 615px;
-}
-
-.Imagecontainer {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 100%;
     height: 615px;
-    background-color: gray;
-
 }
 
-.iamgeitem1 {}
+.Imagecontainer {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .Imagecontainer img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease-in-out; /* 이미지 전환 효과 설정 */
+  }
+  
+  /* 이미지 전환 효과 */
+  .Imagecontainer img.slide-enter {
+    transform: translateX(100%);
+  }
+  
+  .Imagecontainer img.slide-enter-active {
+    transform: translateX(0);
+  }
+  
+  .Imagecontainer img.slide-exit {
+    transform: translateX(-100%);
+  }
+  
+  .Imagecontainer img.slide-exit-active {
+    transform: translateX(0);
+  }
