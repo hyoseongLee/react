@@ -7,10 +7,12 @@ const Header = () => {
         <div className='headerbox'>
             <div className='subbox'>
                 <div  >
-                    <Link to="/Login" className='Dooray'>Dooray! </Link>
+                    <Link to="/" className='Dooray'>Dooray! </Link>
                 </div>
                 |
-                <div className='calender'>캘린더</div>
+                <div>
+                    <LinK to="/Calender" className='calender'>캘린더 </LinK>
+                </div>
 
                 <input className='input' type='text' placeholder='일정 검색' />
 
