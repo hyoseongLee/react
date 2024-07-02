@@ -20,7 +20,7 @@
     font-size: 25px;
     font-weight: bold;
     margin-right: 20px;
-
+    text-decoration: none;
 }
 
 .calender {
@@ -46,5 +46,5 @@
     color: white;
     font-size: 25px;
     margin-right: 42px;
-
+    text-decoration: none;
 }
