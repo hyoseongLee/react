@@ -11,7 +11,7 @@ const Header = () => {
                 </div>
                 |
                 <div>
-                    <LinK to="/Calender" className='calender'>캘린더 </LinK>
+                    <Link to="/Calender" className='Calender'>캘린더 </Link>
                 </div>
 
                 <input className='input' type='text' placeholder='일정 검색' />
