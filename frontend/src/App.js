@@ -3,7 +3,7 @@ import Header from './component/Header';
 import Login from './component/Login';
 import Group from './component/Group';
 import Image from './component/Image';
-import Calendar from './component/Calendar';
+import Calender from './component/Calender';
 import { Routes, Route, } from "react-router-dom";
 import Carousel from "react-multi-carousel";
 
@@ -16,7 +16,7 @@ function App() {
         <Route path="Login" element={<Login />} />
         <Route path="Group" element={<Group />} />
         <Route path="Image" element={<Image />} />
-        <Route path="Calendar" element={<Calendar />} />
+        <Route path="Calender" element={<Calender />} />
       </Routes>
     </div>
   );

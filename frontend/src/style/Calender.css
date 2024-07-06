@@ -1,0 +1,58 @@
+.Tablecontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 123px;
+    padding-bottom: 84px;
+}
+
+.Tablebox {
+    width: 865px;
+    height: 612px;
+    border-collapse: collapse;
+}
+
+.Tablebox caption {
+    text-align: start;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.Tablebox th,
+.Tablebox td {
+    width: 108px;
+    height: 60px;
+}
+
+.Tablebox th {
+    border: 1px solid #999;
+}
+
+.Tablebox td {
+    border: 1px solid #999;
+    text-align: center;
+}
+
+.point1 {
+    background-color: #ABEA9B;
+}
+
+.point2 {
+    background-color: #CAA7D7;
+}
+
+.point3 {
+    background-color: #F88E8E;
+}
+
+.point4 {
+    background-color: #967BCF;
+}
+
+.point5 {
+    background-color: #92BDFF;
+}
+
+.point6 {
+    background-color: #E8D25F;
+}
